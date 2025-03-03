@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Opening Form</title>
+    <style>
+        body {
+            background-color: #cd8f8f; /* امیج کے مطابق جامنی بیک گراؤنڈ */
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            background-color: white;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            padding: 8px;
+            margin-top: 5px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        input[type="submit"], input[type="reset"] {
+            width: 45%;
+            padding: 10px;
+            border: none;
+            background-color: #000000;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #cd8f8f;
+        }
+    </style>
+</head>
+<body>
+<center>
+     
+    <div class="form-links">
+        <a href="index.html">Home</a>
+        <a href="Form1.html"> Form 1</a>
+        <a href="Form2.html"> Form 2</a>
+        <a href="Form3.html"> Form 3</a>
+        <a href="Form4.html"> Form 4</a>
+        <a href="Form5.html"> Form 5</a>
+        
+    </div>
+    </b></center> 
+        <br>
+
+    <!-- Form Container -->
+    <div class="form-container">
+        <h2>🚀 Account Opening Form 🚀</h2>
+
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+
+                <label>Name*:</label>
+                <input type="text" name="name" required>
+
+                <label>Name of (Father/Guardian):</label>
+                <input type="text" name="father_name">
+
+                <label>Date of Birth* (dd-mm-yy):</label>
+                <input type="date" name="dob" required>
+
+                <label>Gender*:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+
+                <label>Nationality:</label>
+                <input type="text" name="nationality">
+
+                <label>Account Type*:</label>
+                <input type="radio" name="account_type" value="savings"> Savings
+                <input type="radio" name="account_type" value="fixed"> Fixed
+
+                <label>Preferences:</label>
+                <input type="checkbox" name="preference" value="internet_banking"> Internet Banking
+                <input type="checkbox" name="preference" value="mobile_banking"> Mobile Banking
+                <input type="checkbox" name="preference" value="sms_alerts"> SMS Alerts
+
+                <label>Address:</label>
+                <textarea name="address" rows="4"></textarea>
+
+                <label>Country*:</label>
+                <select>
+                    <option>Please Select</option>
+                    <option>Pakistan</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Other</option>
+                </select>
+
+                <label>Zip Code*:</label>
+                <input type="text" name="zip_code">
+
+                <label>Phone*:</label>
+                <input type="text" name="phone">
+
+                <label>Email*:</label>
+                <input type="email" name="email">
+
+                <label>Password (6-8 characters)*:</label>
+                <input type="password" name="password">
+
+                <label>Verify Password*:</label>
+                <input type="password" name="verify_password">
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <input type="submit" value="SEND">
+                    <input type="reset" value="CLEAR">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
