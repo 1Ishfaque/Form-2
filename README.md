@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ayan Ali</h1>
 <h3 align="center">A passionate Full-Stack Web Developer & Digital Marketing Manager from Pakistan</h3>
 
-- 🔭 I’m currently working on FORMS [FORMS](1ishfaque.github.io/Form-2/)
+- 🔭 I’m currently working on FORMS [Form-2](1ishfaque.github.io/Form-2/)
 
 - 🌱 I’m currently learning **HTML**
 
